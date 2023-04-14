@@ -1,0 +1,435 @@
+@import url(https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap);
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  
+  
+}
+
+body {
+  
+  overflow-x: hidden;
+}
+
+
+
+.slider {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.carrossel {
+  overflow: hidden;
+  width: 1920px;
+  height: 450px;
+}
+.container {
+  display: flex;
+  transition: 0.5s ease-in-out;
+  transform: translateX(0);
+}
+
+.img {
+  width: 1920px;
+  object-fit: cover;
+}
+
+header {
+  width: 100%;
+  height: 4.16vw;
+  background-color: #e5ddc0;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.faixamenu {
+  border: #072f38;
+  background-color: #072f38;
+  height: 4.16vw;
+  width: 1920px;
+  
+}
+
+.menuinicio {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  gap: 15vh;
+  font-size: 25px;
+  margin-top: 0.2vw;
+}
+
+.menuinicio p a {
+  color: white;
+  font-family: "Fjalla One", sans-serif;
+  display: block;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.menuinicio p a:hover {
+  font-weight: 500;
+  color: #e5ddc0;
+  display: block;
+  text-decoration: none;
+  margin-left: 20px;
+  background-color: rgba(19, 19, 19, 0);
+  font-size: 25.25px;
+  cursor: pointer;
+}
+
+.boxfundo {
+  position: absolute;
+  width: 900px;
+  height: 900px;
+  margin-left: 170px;
+  background-color: #0000008e; 
+}
+
+
+
+.titulo1e {
+  position: absolute;
+  margin-top: 30px;
+  width: 440px;
+  color: rgb(229, 221, 192);
+  margin-left: 10px;
+  
+ 
+}
+
+.text1e {
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.esquerdoimg1 img {
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+.titulo2e {
+  position: absolute;
+  margin-top: -150px;
+  margin-left: 360px;
+}
+
+.text2e {
+  width: 25vh;
+  height: 8vw;
+  position: absolute;
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: end;
+  margin-top: -8vw;
+  margin-left: 270px;
+}
+
+.btn {
+  width: 17vh;
+  height: 3vw;
+  margin: 0.5em;
+  background-color: #072f38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+button:hover {
+  color: #072f38;
+}
+
+button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.bnte {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 26vw;
+  margin-left: 46vh;
+  margin-top: 4vw;
+}
+
+.division {
+  border-left: #e5ddc0 solid 0.1vw;
+  height: 27vw;
+  margin-left: 50%;
+  margin-top: -27vw;
+}
+
+.titulod {
+  margin-top: -27.8vw;
+  height: -50vw;
+  width: 890px;
+  color: #e5ddc0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.textd {
+  height: 30vw;
+  width: 420px;
+  text-align: end;
+  flex-wrap: nowrap;
+  margin-top: 0.5vw;
+}
+
+.audio1 {
+  position: absolute;
+  margin-right: 4vh;
+  margin-top: 1vw;
+}
+
+.audio2 {
+  position: absolute;
+  margin-top: 8vw;
+  margin-left: 8vw;
+}
+
+.btn2 {
+  width: 17vh;
+  height: 3vw;
+  margin: 0.5em;
+  background-color: #072f38;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+button:hover {
+  color: #072f38;
+}
+
+button:after {
+  content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+button:hover:after {
+  transform: skewX(-45deg) scale(1, 1);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.bntd {
+  position: absolute;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 332.8px;
+  margin-left: 40px;
+  margin-top: -88px;
+}
+
+.positioncards {
+  margin-top: 100px;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 20vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.75rem;
+  background-color: #f1e8c7;
+  width: 45vh;
+  height: 350px;
+}
+
+
+.cardsimagens {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.cardsimg2{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.info { 
+  text-align: center;
+}
+
+.title {
+  margin-top: -30px;
+  color: rgb(38 50 56);
+  letter-spacing: 0;
+  font-weight: 600;
+  font-size: 1.25rem;
+
+}
+
+
+
+
+.positionbotoncard{
+  display: flex;
+  flex-direction: column-reverse;
+  
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.432);
+    width: 100%;
+    height: 30vw;
+    padding: 0%;
+    margin-top: 80%;
+  }
+  
+  .caixa1{
+  
+  position: absolute;
+  width: 100%;
+  height: 26vw;
+  margin-top: 4vw;
+  background-color: #888686;
+  padding: 0%;
+        }
+  
+  .infoimg {
+  margin-left: 35vh;
+    height: 100px ;
+    width: 250px ;
+    margin-top: 6vw;
+    position: absolute;
+  }
+
+  .pointer {
+cursor: pointer;
+font-size: 25px;
+margin-left: 37vh;
+margin-top: 23vw;
+color: white;
+position: absolute;
+
+  }
+
+  .textcaixa1 {
+margin-top: 17vw;
+font-size: 18px;
+color: white;
+margin-left: 14vh;
+position: absolute;
+
+  }
+
+  .textcaixa2 {
+    margin-top: 9vw;
+    font-size: 30px;
+    color: white;
+    margin-left: 145vh;
+    position: absolute;
+
+      }
+
+  .textcaixa3 {
+    margin-top: 15vw;
+    font-size: 20px;
+    color: white;
+    margin-left: 144vh;
+    position: absolute;
+
+  }
+
+  .textcaixa4 {
+    margin-left: 92vh;
+    color: white;
+    font-size: 10px;
+    margin-top: 29vw;
+    position: absolute;
+
+  }
+
+.imgfooter1{
+
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 15vw;
+  margin-left: 138vh;
+
+}
+
+.imgfooter2{
+
+height: 20px;
+width: 20px;
+position: absolute;
+margin-top: 18vw;
+margin-left: 138vh;
+}
+
+.imgfooter3{
+
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 21vw;
+  margin-left: 138vh;
+  }
+
+  .imgfooter4{
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    margin-top: 24vw;
+    margin-left: 138vh;
+    }
+
