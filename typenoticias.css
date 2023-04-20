@@ -17,11 +17,8 @@ header {
   
 }
 
-.logo img{
+.logoimg{
  position: absolute;
-
-
- 
 
 }
 .menu {
@@ -51,5 +48,16 @@ header {
   margin-left: 20px;
   background-color: rgba(19, 19, 19, 0);
   font-size: 25px;
+}
+
+.border{
+  background-color: #e5ddc0;
+  width: 60%;
+  height: 800px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
 }
 
